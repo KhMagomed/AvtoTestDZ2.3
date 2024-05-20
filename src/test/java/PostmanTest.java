@@ -6,9 +6,9 @@ import static org.hamcrest.Matchers.equalTo;
 public class PostmanTest {
 
     @Test
-    public void shoulgReturnSendData(){
+    public void shoulgReturnSendData() {
 
-                String text = "Hi";
+        String text = "Hi";
 
         given()
                 .baseUri("https://postman-echo.com")
